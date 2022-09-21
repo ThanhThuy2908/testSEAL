@@ -1,6 +1,6 @@
 # Makefile for the SEAL library
 UTIL_DIR=util
-BIN_DIR=../bin
+BIN_DIR=./bin
 OBJ_DIR=obj
 INCLUDE_DIR=seal
 SRC_DIR=seal

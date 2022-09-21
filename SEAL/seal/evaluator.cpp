@@ -121,6 +121,7 @@ namespace seal
 
         // Calculate map from Zmstar to generator representation
         populate_Zmstar_to_generator();
+        k_list = &(coeff_div_plain_modulus_[0]);
     }
 
     Evaluator::Evaluator(const Evaluator &copy) :

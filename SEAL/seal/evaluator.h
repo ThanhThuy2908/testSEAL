@@ -1096,6 +1096,8 @@ namespace seal
             rotate_columns(encrypted, galois_keys, destination, pool_);
         }
 
+        uint64_t * k_list;
+
     private:
         Evaluator &operator =(const Evaluator &assign) = delete;
 
